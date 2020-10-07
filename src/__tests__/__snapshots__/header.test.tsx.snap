@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+DOMTokenList {
+  "0": "p-2",
+  "1": "text-5xl",
+  "2": "text-secondary-dark",
+  "3": "bg-primary",
+}
+`;
