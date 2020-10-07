@@ -29,7 +29,9 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.5.2",
     "prettier": "2.1.2",
-    "tailwindcss": "^1.8.10"
+    "tailwindcss": "^1.8.10",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
   },
   "keywords": [
     "gatsby"

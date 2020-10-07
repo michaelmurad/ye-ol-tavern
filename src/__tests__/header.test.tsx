@@ -4,6 +4,7 @@ import Header from "../components/header"
 
 it("renders correctly", () => {
   const { container } = render(<Header siteTitle="hello" />)
-  expect(container.firstChild.textContent).toBe("hello")
-  expect(container.firstChild.classList).toMatchSnapshot()
+  const { firstChild } = container as any
+  expect(firstChild.textContent).toBe("hello")
+  expect(firstChild.classList).toMatchSnapshot()
 })
