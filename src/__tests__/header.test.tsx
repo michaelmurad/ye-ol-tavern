@@ -4,7 +4,7 @@ import Header from "../components/header"
 
 it("renders correctly", () => {
   const { container } = render(<Header siteTitle="hello" />)
-  const { firstChild } = container as any
-  expect(firstChild.textContent).toBe("hello")
-  expect(firstChild.classList).toMatchSnapshot()
+  expect(container.firstChild.textContent).toBe("hello")
+  // @ts-ignore: Property 'classList' does not exist on type 'ChildNode'
+  expect(container.firstChild.classList).toMatchSnapshot()
 })
