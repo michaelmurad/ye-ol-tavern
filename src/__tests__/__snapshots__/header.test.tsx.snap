@@ -1,11 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
-DOMTokenList {
-  "0": "font-fancy",
-  "1": "p-2",
-  "2": "text-5xl",
-  "3": "text-black",
-  "4": "bg-primary",
-}
-`;
+exports[`renders correctly 1`] = `"font-fancy p-2 text-5xl text-black bg-primary"`;
