@@ -2,9 +2,10 @@
 
 exports[`renders correctly 1`] = `
 DOMTokenList {
-  "0": "p-2",
-  "1": "text-5xl",
-  "2": "text-secondary-dark",
-  "3": "bg-primary",
+  "0": "font-fancy",
+  "1": "p-2",
+  "2": "text-5xl",
+  "3": "text-white",
+  "4": "bg-primary",
 }
 `;
